@@ -1,0 +1,161 @@
+    <!doctype html>
+    <html lang="id">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portofolio pribadi Dimas Adhyaksa — Frontend Developer.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Portofolio: Dimas Adhyaksa">
+    <meta property="og:image" content="foto-profil.jpg">
+    <title>Portofolio | Dimas Adhyaksa</title>
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+    <header>
+    <h1 id="title">Dimas Adhyaksa — Frontend Developer</h1>
+    <nav aria-label="Navigasi utama">
+        <ul>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#education">Pendidikan</a></li>
+        <li><a href="#skills">Keahlian</a></li>
+        <li><a href="#projects">Projek</a></li>
+        <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <main>
+    <section id="about">
+        <div class="hero">
+        <img src="images/dimas.png" alt="Foto Dimas Adhyaksa" class="profile">
+        <div>
+            <h2>Tentang Saya</h2>
+            <p>Saya adalah frontend developer yang fokus pada HTML, CSS, dan JavaScript, serta membangun web modern dengan aksesibilitas dan kinerja optimal.</p>
+            <p><abbr title="Kota Tasikmalaya">US</abbr>, lahir <time datetime="1999-12-07">7 Desember 1999</time>.</p>
+        </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Riwayat Pendidikan & Pengalaman</h2>
+        <table>
+        <caption>Riwayat pendidikan dan pengalaman</caption>
+        <thead>
+            <tr>
+            <th>Tahun</th>
+            <th>Institusi</th>
+            <th>Peran</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>2018–2022</td>
+            <td>Universitas Mayasari Bakti</td>
+            <td>S1 Sistem Informasi</td>
+            </tr>
+            <tr>
+            <td>2023</td>
+            <td>PT. Startup Kita</td>
+            <td>Frontend Intern</td>
+            </tr>
+            <tr>
+            <td colspan="3">2024 — Freelance Web Developer (Nuxt, React, API Integration)</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+            <td colspan="3">Detail lebih lengkap tersedia melalui formulir kontak.</td>
+            </tr>
+        </tfoot>
+        </table>
+    </section>
+
+    <section id="skills">
+        <h2>Keahlian</h2>
+        <ul>
+        <li>HTML Semantik</li>
+        <li>CSS (Flexbox, Grid)</li>
+        <li>JavaScript (ES6+)</li>
+        <li>Vue / Nuxt</li>
+        </ul>
+
+    </section>
+
+    <section id="projects">
+        <h2>Projek</h2>
+
+        <article class="project">
+        <h3 style="text-align: center;">Website E-Commerce</h3>
+        <img src="images/gmaba1.jpg" alt="Tampilan website e-commerce">
+        <p>Toko online Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, sed ab. Dignissimos et soluta nemo doloremque facere necessitatibus? Aliquid delectus quidem tempora porro laudantium! Ipsam, aperiam dignissimos. Sed, illum laudantium!</p>
+        <button>
+            <a href="https://dimasadhyaksa.github.io" target="_blank">Kunjungi Projek</a>
+        </button>
+        </article>
+
+        <article class="project">
+        <h3 style="text-align: center;">Video Demo Aplikasi</h3>
+        <iframe width="547" height="300" src="images/video1.mp4"
+            title="Demo Aplikasi" frameborder="0" allowfullscreen>
+        </iframe>
+        </article>
+
+        <article class="project">
+        <h3 style="text-align: center;">Screencast Proses Kerja</h3>
+        <video controls width="550">
+            <source src="images/video1.mp4" type="video/mp4">
+        </video>
+        </article>
+
+    </section>
+
+    <aside>
+        <h3>Catatan</h3>
+        <p>Saya menerima proyek freelance terkait UI/UX dan frontend development.</p>
+    </aside>
+
+    <section id="contact">
+        <h2>Kontak</h2>
+        <form>
+        <fieldset>
+            <legend>Form Kontak</legend>
+
+            <label>Nama:<br>
+            <input type="text" required minlength="2" maxlength="100">
+            </label>
+
+            <label>Email:<br>
+            <input type="email" required>
+            </label>
+
+            <label>Nomor:<br>
+            <input type="tel" required minlength="6" maxlength="20">
+            </label>
+
+            <label>Pesan:<br>
+            <textarea required minlength="10" maxlength="500"></textarea>
+            </label>
+
+            <fieldset>
+            <legend>Jenis Pesan</legend>
+            <label><input type="radio" name="jenis" required> Saran</label>
+            <label><input type="radio" name="jenis"> Pertanyaan</label>
+            </fieldset>
+
+            <label>
+            <input type="checkbox" required> Saya menyetujui pengolahan data.
+            </label>
+
+            <button type="submit">Kirim</button>
+        </fieldset>
+        </form>
+    </section>
+
+    </main>
+
+    <footer>
+    <p>© 2025 Dimas Adhyaksa</p>
+    </footer>
+
+    </body>
+    </html>
