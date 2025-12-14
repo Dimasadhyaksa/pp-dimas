@@ -1,0 +1,248 @@
+    /* === GLOBAL === */
+    body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #f3f5ff, #e7ecff);
+    line-height: 1.6;
+    color: #2c2c2c;
+    }
+
+    header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #6b6bff;
+    background: linear-gradient(90deg, #6b6bff, #9a9aff);
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+    }
+
+    nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    }
+
+    nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: 0.3s;
+    }
+
+    nav a:hover {
+    color: #fffd9c;
+    transform: translateY(-2px);
+    }
+
+    /* === ABOUT SECTION === */
+    .hero {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+    }
+
+    .profile {
+    width: 140px;
+    height: 140px;
+    border-radius: 10px;
+    object-fit: cover;
+    }
+
+    /* === TABLE === */
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: white;
+    }
+
+    th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    }
+
+    caption {
+    margin-bottom: 10px;
+    font-weight: bold;
+    }
+
+    /* === SKILLS === */
+    ul {
+    padding-left: 20px;
+    }
+
+    .project img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+    }
+
+    .project {
+    padding: 15px;
+    border: 1px solid #ddd;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+    transition: 0.3s;
+    }
+
+    .project:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+    }
+
+    /* === CONTACT FORM === */
+    form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    }
+
+    input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+    }
+
+    button {
+    padding: 12px 25px;
+    background: linear-gradient(90deg, #6b6bff, #9898ff);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s;
+    }
+
+    button:hover {
+    background: linear-gradient(90deg, #5858ff, #8080ff);
+    transform: translateY(-2px);
+    }
+
+    button:hover {
+    background: #95a4ec;
+    }
+
+    fieldset {
+    border: 2px solid #b8baff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background: #f6f7ff;
+    }
+
+
+    label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+    }
+
+
+    legend {
+    font-weight: 700;
+    padding: 0 8px;
+    color: #4a4aff;
+    font-size: 1.1rem;
+    }
+
+    footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #ddd;
+    }
+
+    /* === NAVIGATION === */
+    nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* ⬅️ PENTING: bikin sejajar */
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+    }
+
+    /* Link biasa */
+    nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: 0.3s;
+    }
+
+    nav a:hover {
+    color: #fffd9c;
+    }
+
+    /* === DROPDOWN === */
+    .dropdown {
+    position: relative;
+    display: flex;
+    align-items: center; 
+    }
+
+    /* Button dropdown */
+    .dropbtn {
+    background: none;
+    border: none;
+    color: #ffffff;  
+    font-weight: bold;   
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0;              
+    transition: 0.3s;
+    }
+
+    .dropbtn:hover {
+    color: #fffd9c;
+    }
+
+    /* Dropdown content */
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 140%;              
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    min-width: 180px;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    z-index: 1000;
+    overflow: hidden;
+    }
+
+    /* Link di dropdown */
+    .dropdown-content a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: 0.3s;
+    }
+
+    .dropdown-content a:hover {
+    background-color: #f0f2ff;
+    color: #4a4aff;
+    }
+
+    /* AKTIF */
+    .show {
+    display: block;
+    }
+
